@@ -89,5 +89,25 @@ p{
 
 }
 
+/*pseudo classes for links*/
 
+.pseudo:link{
+color: green;
+}
+
+
+.pseudo:visited{
+  color: red;
+  
+}
+
+.pseudo:hoover{
+  
+  color:blue;
+}
+
+.pseudo:active{
+color: yellow;
+
+}
 /*as you might guess, there's no styling whatsoever for the map.google.com iframe tag*/
