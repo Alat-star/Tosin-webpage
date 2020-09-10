@@ -1,20 +1,40 @@
+
+/*horizontal line styling*/
 hr{
   border: 1px solid black;
 }
+
+
+
+/* the style below applies to the picture at the header*/
+
 .pic{
   width: 300px;
   border: 10px inset gray ;
 
 }
+
+
+
+/*the thinful id applies to last achor tag below the header. */
+
 #thinkful{
   text-align: left;
   font-family: Arial, Helvetica, sans-serif
 }
 
+
+
+/*the style applies to the whole body of the html*/
+
 body{
   background-color: lightgray;
   background-position: 
 }
+
+
+
+/*the style below applies to the id in h1 tag containing my name*/
 
 #name{
 text-align: center;
@@ -22,28 +42,52 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 
+
+
+/*the style below applies to the header container only*/
+
 header{
 background-color: rgba(18, 20, 19, 0.4);
  background-position: center;
 
 }
 
+
+
+/* the styling below applies to the footer container only*/
+
 footer{
   background-color:rgba(18, 20, 19, 0.4);
   
 }
 
+
+
+
+/*the styling below applies to all h3 tag on the page except the ones with a class or id selector in it, if there's any*/
+
 h3{
   text-align: center;
 }
+
+
+
+/*the styling below applies to all p tags on the page except those with class/id selector in it.*/
 
 p{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif
 }
 
+
+
+/*the styling below applies to the the all p tags with "bio" class as the selector*/
+
 .bio{
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+/*as you might guess, there's no styling whatsoever for the map.google.com iframe tag*/
